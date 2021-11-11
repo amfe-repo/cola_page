@@ -1,0 +1,59 @@
+/*items and elements styles*/
+
+.items
+{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    grid-column: span 6;
+    margin-top: 3.5em;
+}
+
+.items .title
+{
+    color: #b30101;
+    font-weight: bold;
+    text-align: center;
+    font-size: 3.5em;
+    padding: 1.3em;
+}
+
+.items section
+{
+    display: flex;
+    align-items: center;
+    margin: 1.3em;
+}
+
+.items section img
+{
+    width: 20em;
+}
+
+.items section .body_card
+{
+    text-align: justify;
+}
+
+.items section .body_card .title_card
+{
+    font-size: 2em;
+    font-weight: bold;
+    margin: 1.4em;
+}
+
+.items section .body_card .text_card
+{
+    font-size: 1.3em;
+}
+
+li
+{
+    font-size: 1.3em;
+}
+
+.items img
+{
+    width: 100%;
+}

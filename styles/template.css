@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+/*init page style*/
+
+html
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: #fff;
+}
+
+*, *::after, *::before
+{
+    box-sizing: inherit;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*container grid layout*/
+
+.container
+{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+/*header style*/
+
+header
+{
+    background-color: #b30101;
+    display: flex;
+    grid-column: span 6;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    box-shadow: 0px 15px 10px 0px rgba(0, 0, 0, 0.4);
+    
+}
+
+header .img
+{
+    box-sizing: border-box;
+    width: 250px;
+    height: 70px;
+    background-image: url("../resources/tiny/logo.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: 0.8em 0.8em;
+    cursor: pointer;
+}
+
+header .nabvar
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-content: center;
+    width: 100%;
+    font-size: 17px;
+    margin: auto 0;
+}
+
+header .nabvar span a
+{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+header .nabvar span
+{
+    text-align: center;
+    font-size: 25px;
+    margin: auto 0.3em;
+    font-weight: bold;
+    height: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 220%;
+}
+
+header .nabvar span:hover
+{
+    background-color: #550202;
+    cursor: pointer;
+}
+
+
+header .nabvar .form
+{
+    width: 20%;
+    
+}
+
+header .nabvar .form input
+{
+    margin-top: 0.5em;
+    text-align: center;
+    font-size: 20px;
+    border: none;
+    
+}
+
+header .nabvar .form .input_search
+{
+    width: 70%;
+    padding: 0.1em;
+}
+
+header .nabvar .form .btn_search
+{
+    padding: 0.1em;
+    background-image: url(../resources/tiny/lupa.png);
+    width: 20%;
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    border: none;
+    background-color: #780000;
+    position: relative;
+    top: 6.5px;
+    background-position: center;
+    cursor: pointer;
+}
+
+
+
+/*footer style*/
+
+.footer
+{
+    width: 100%;
+    height: 175px;
+    background-color: #b30101;
+    grid-column: span 6;
+    padding: 0 1em;
+}
+
+footer .superior_view 
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .superior_view .img
+{
+    box-sizing: border-box;
+    width: 10em;
+    height: 60px;
+    background-image: url("../resources/tiny/logo.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: 0.8em 0.8em;
+    cursor: pointer;
+}
+
+footer .superior_view .comunity_icons
+{
+    box-sizing: border-box;
+    width: 35em;
+    height: 60px;
+    background-image: url("../resources/tiny/comunidad.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: 0.8em 0.8em;
+    cursor: pointer;
+}
+
+footer .inferior_view
+{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 1.4em;
+    font-weight: bold;
+    margin: 1.3em 0;
+}
+
+
+footer .inferior_view .terms_footer span
+{
+    margin: 0 0.7em;
+}

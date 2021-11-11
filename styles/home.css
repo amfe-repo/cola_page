@@ -1,0 +1,62 @@
+/*banner style*/
+
+.banner
+{
+    width: 100%;
+    height: 65em;
+    background-color: #780000;
+    background-image: url("../resources/tiny/banner.png");
+    background-size: 100% 100%;
+    grid-column: span 6;
+    background-repeat: no-repeat;
+}
+
+/*items and elements styles*/
+
+.items
+{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    grid-column: span 6;
+}
+
+.items .title
+{
+    color: #b30101;
+    font-weight: bold;
+    text-align: center;
+    font-size: 3.5em;
+    padding: 1.3em;
+}
+
+.items section
+{
+    display: flex;
+    align-items: center;
+    margin: 1.3em;
+}
+
+.items section img
+{
+    width: 20em;
+}
+
+.items section .body_card
+{
+    text-align: center;
+}
+
+.items section .body_card .title_card
+{
+    font-size: 2em;
+    font-weight: bold;
+    margin: 1.4em;
+}
+
+.items section .body_card .text_card
+{
+    font-size: 1.3em;
+    
+}
